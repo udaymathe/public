@@ -1,0 +1,103 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.wrapper {
+  display: -ms-grid;
+  display: grid;
+  height: 100vh;
+  -ms-grid-columns: 0.35fr 4fr 5fr;
+      grid-template-columns: 0.35fr 4fr 5fr;
+  border: 1px solid none;
+}
+
+.first {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid none;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.first img {
+  width: 38px;
+  height: auto;
+}
+
+.second {
+  border: 1px solid none;
+  text-align: left;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.second h1 {
+  font: heebo;
+  font-size: 2.25rem;
+  line-height: 1rem;
+}
+
+.second h3 {
+  font: rubik;
+  font-size: 1.15rem;
+  font-weight: 300;
+  color: #707070;
+  line-height: 0;
+}
+
+.third {
+  margin-top: 5rem;
+  line-height: 0;
+}
+
+.third h4 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 0;
+  margin-bottom: 0.5rem;
+}
+
+.third .indian {
+  border: 1px solid none;
+}
+
+.third .british {
+  border: 1px solid none;
+}
+
+.third .american {
+  border: 1px solid none;
+}
+
+.third .list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 3fr;
+      grid-template-columns: 2fr 3fr;
+  margin-left: 3rem;
+  line-height: 2.85rem;
+}
+
+.third .list .code {
+  color: #9D9D9D;
+  font: rubik;
+  font-size: 1rem;
+  font-weight: 350;
+}
+
+.third .list .code-mix {
+  line-height: 2.5rem;
+  font-size: 1rem;
+}
+
+a, span {
+  text-decoration: none;
+  color: #909090;
+  background-color: #F4F4F4;
+  padding: 0.5rem 0.5rem;
+  border-radius: 5px;
+}
